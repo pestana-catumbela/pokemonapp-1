@@ -6,3 +6,26 @@ A React Native app that consumes the Pokémon API using FetchAPI native method, 
 
 ### Used Techs
 [React Native](https://reactnative.dev/) | [Expo](https://expo.dev/) | [Expo Router](https://docs.expo.dev/versions/latest/sdk/router/) | [Expo Vector Icons](https://docs.expo.dev/guides/icons/) | [NPM](https://www.npmjs.com/) | [TypeScript](https://www.typescriptlang.org/) | [FetchAPI](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
+
+### How To Run
+Clone the project in your local environment:
+- HTTPS
+  ```bash
+  git clone https://github.com/pestana-catumbela/pokemonapp-1.git
+  ```
+- SSH
+  ```bash
+  git clone git@github.com:pestana-catumbela/pokemonapp-1.git
+  ```
+
+Into the project cloned directory, install all dependencies you need to run the project locally:
+```bash
+npm install
+```
+
+After that, run the bellow command to run the project:
+```bash
+npx expo start
+```
+
+It gives a QR Code, install Expo Go in your device and scan the code or install any amulator (android or ios).
